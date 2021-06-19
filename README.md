@@ -6,13 +6,9 @@ Use Graph from PySimpleGuiWeb.
 
 # DEMO
 
-* [demo](https://ytyaru.github.io/Python.PySimpleGuiWeb.Graph.20210619111211/)
+![0](https://github.com/ytyaru/Python.PySimpleGuiWeb.Graph.20210619111211/blob/master/doc/0.png?raw=true)
 
-![img](https://github.com/ytyaru/Python.PySimpleGuiWeb.Graph.20210619111211/blob/master/doc/0.png?raw=true)
-
-# Features
-
-* sales point
+Unfortunately nothing was displayed on the canvas. Drawing methods such as `draw_text()` were not executed.
 
 # Requirement
 
@@ -33,18 +29,10 @@ Linux raspberrypi 5.4.83-v7l+ #1379 SMP Mon Dec 14 13:11:54 GMT 2020 armv7l GNU/
 
 # Installation
 
-Install Python 3.7 or higher.
-
-Next, install [pyxel][] as follows.
-
-* [pyxel/README](https://github.com/kitao/pyxel/blob/master/README.md#how-to-install)
-
 ```sh
-sudo apt install python3 python3-pip libsdl2-dev libsdl2-image-dev
-git clone https://github.com/kitao/pyxel.git
-cd pyxel
-make -C pyxel/core clean all
-pip3 install .
+git clone https://github.com/ytyaru/Python.PySimpleGuiWeb.SetUp.20210618110027
+cd Python.PySimpleGuiWeb.SetUp.20210618110027/src
+./setup.sh
 ```
 
 # Usage
@@ -52,12 +40,8 @@ pip3 install .
 ```sh
 git clone https://github.com/ytyaru/Python.PySimpleGuiWeb.Graph.20210619111211
 cd Python.PySimpleGuiWeb.Graph.20210619111211/src
-./run.py
+./run.sh
 ```
-
-# Note
-
-* important point
 
 # Author
 

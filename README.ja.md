@@ -6,13 +6,9 @@
 
 # デモ
 
-* [demo](https://ytyaru.github.io/Python.PySimpleGuiWeb.Graph.20210619111211/)
+![0](https://github.com/ytyaru/Python.PySimpleGuiWeb.Graph.20210619111211/blob/master/doc/0.png?raw=true)
 
-![img](https://github.com/ytyaru/Python.PySimpleGuiWeb.Graph.20210619111211/blob/master/doc/0.png?raw=true)
-
-# 特徴
-
-* セールスポイント
+　残念ながらキャンバスには何も表示されなかった。`draw_text()`など描画メソッドが実行されなかった。
 
 # 開発環境
 
@@ -33,18 +29,10 @@ Linux raspberrypi 5.4.83-v7l+ #1379 SMP Mon Dec 14 13:11:54 GMT 2020 armv7l GNU/
 
 # インストール
 
-　3.7以上のPythonをインストールする。
-
-　次に以下のように[pyxel][]をインストールする。
-
-* [pyxel/README](https://github.com/kitao/pyxel/blob/master/README.ja.md#%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%96%B9%E6%B3%95)
-
 ```sh
-sudo apt install python3 python3-pip libsdl2-dev libsdl2-image-dev
-git clone https://github.com/kitao/pyxel.git
-cd pyxel
-make -C pyxel/core clean all
-pip3 install .
+git clone https://github.com/ytyaru/Python.PySimpleGuiWeb.SetUp.20210618110027
+cd Python.PySimpleGuiWeb.SetUp.20210618110027/src
+./setup.sh
 ```
 
 # 使い方
@@ -52,12 +40,8 @@ pip3 install .
 ```sh
 git clone https://github.com/ytyaru/Python.PySimpleGuiWeb.Graph.20210619111211
 cd Python.PySimpleGuiWeb.Graph.20210619111211/src
-./run.py
+./run.sh
 ```
-
-# 注意
-
-* 注意点など
 
 # 著者
 
