@@ -6,7 +6,7 @@
 
 # デモ
 
-![0](https://github.com/ytyaru/Python.PySimpleGuiWeb.Graph.20210619111211/blob/master/doc/0.png?raw=true)
+![0](https://github.com/ytyaru/Python.PySimpleGuiWeb.Graph.20210619111211/blob/master/res/0.png?raw=true)
 
 　残念ながらキャンバスには何も表示されなかった。`draw_text()`など描画メソッドが実行されなかった。
 
